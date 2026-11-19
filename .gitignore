@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+__pycache__/
+*.py[cod]
 
 # testing
 /coverage
@@ -27,6 +29,10 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+/.jrocai/
+/jroc_core.db
+/jroc_core.db-shm
+/jroc_core.db-wal
 
 # vercel
 .vercel
